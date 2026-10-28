@@ -13,7 +13,7 @@ class App:
         pygame.init()
         self.width = 800
         self.height = 600
-        self.screen = pygame.display.set_display_mode((self.width, self.height))
+        self.screen = pygame.display.set_mode((self.width, self.height))
         pygame.display.set_caption("Лабораторная 2: Сложная анимация фейерверков")
         
         self.clock = pygame.time.Clock()
