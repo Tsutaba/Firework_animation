@@ -2,8 +2,8 @@
 
 import pygame
 from src.models.animation_model import FireworkManager
-from src.renderers/renderer import Renderer
-from src.widgets/controls import HUD
+from src.renderers.renderer import Renderer
+from src.widgets.controls import HUD
 
 class App:
     # Управляющий класс архитектуры приложения.
